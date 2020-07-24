@@ -1,0 +1,53 @@
+html,body{
+    background-image: url('../multimedija/bgBMW.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0;
+    padding: 0;
+    height:100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+.navbar {
+    background-color: #203F51;
+    overflow: auto;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 75%;
+  }
+  
+  .navbar-right {
+    float: right;
+  }
+  
+  .navbar a {
+    float: left;
+    margin-top: 0;
+    padding: 14px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #627482;
+  }
+
+  .contentDiv {
+    background-color: #203F51;
+    opacity: 0.8;
+    color: white;
+    font-weight: bolder;
+  }
+
+  
+.active {
+    background-color: #5B723A;
+  }
+  

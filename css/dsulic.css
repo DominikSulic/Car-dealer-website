@@ -1,0 +1,178 @@
+html,body{
+  margin:0;
+  padding: 0;
+  height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+  font-size: 40px;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+}
+
+.contentDiv {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20%;
+  background-color: #203F51;
+  opacity: 0.85;
+  color: white;
+}
+
+
+
+.BGimg{
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+footer {
+  width:100%;
+  height:33%;
+  margin-bottom: 0;
+  background-color: #081826;
+  color: white;
+}
+
+.zindex {
+  z-index: 2;
+  position: absolute;
+  color:white;
+}
+
+
+.navbar {
+  background-color: #203F51;
+  overflow: auto;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 75%;
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar a {
+  float: left;
+  margin-top: 0;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  height: 100%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #627482;
+}
+
+
+
+.active {
+  background-color: #5B723A;
+}
+
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.navbar-right input[type=text] {
+  border-color: white;
+  font-size: 17px;
+  width: 150px;
+  background-color: #203F51;
+  color:white;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 17px;
+  color: white;
+}
+
+
+
+.divAlign {
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+
+input {
+  padding: 2%;
+  border: none;
+  color:white;
+  border-bottom: 2px solid white;
+  background-color: #203F51;
+  width: 80%;
+}
+
+input[type="text"]
+{
+  font-weight: bold;
+  font-size:22px;
+}
+
+input[type="date"]
+{
+  font-weight: bold;
+  font-size:22px;
+}
+
+input[type="email"]
+{
+  font-weight: bold;
+  font-size:22px;
+}
+
+.divAlignButton {
+  border-style: solid 2px;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+footer .navbar {
+  background-color: #081826;
+}
+
+
+.eMailGreska {
+  border-bottom: 2px solid red;
+}
+
+
+table, th, td {
+  border: 1px solid white;
+}
+
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 2;
+  cursor: pointer;
+  color: white;
+}
